@@ -1,0 +1,37 @@
+.main {
+  margin: auto;
+  width: 40%;
+  margin-top: 50px;
+  /* background-color: rgb(5, 5, 90); */
+}
+
+.main > h3 {
+  background-color: rgb(34, 34, 174);
+  color: white;
+  font-family: sans-serif;
+}
+.user-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  color: grey;
+}
+
+.user-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.user-list li img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.user-list li h3 {
+  font-size: 1.2em;
+  margin: 0;
+}
